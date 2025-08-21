@@ -1,0 +1,26 @@
+# Directorios de la aplicación generados en tiempo de ejecución
+temp/
+output/
+
+# Archivos de configuración local
+# No deben ser versionados para no exponer rutas de usuario.
+config.json
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Dependencias del entorno virtual
+# Es una buena práctica no incluir el entorno virtual.
+.venv/
+venv/
+env/
+
+# Archivos específicos del sistema operativo
+# Ocultos o generados por el sistema.
+.DS_Store
+.vscode/
+
+# Ignorar archivos de vídeo, ya que son grandes
+# y la app pide al usuario que los seleccione localmente.
+*.mp4
